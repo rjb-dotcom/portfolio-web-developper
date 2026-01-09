@@ -1,6 +1,6 @@
 # Portfolio – Développeur Web et Web Mobile
 
-Ce dépôt contient l’ensemble des projets réalisés dans le cadre de la formation
+Ce dépôt contient l’ensemble des projets réalisés dans le cadre de la formation.
 **Développeur Web et Web Mobile (RNCP)**.
 
 ## Objectifs
