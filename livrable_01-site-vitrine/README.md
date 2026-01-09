@@ -11,3 +11,7 @@ Création d’un site vitrine pour une PME fictive.
 ## Technologies
 - HTML5
 - CSS3
+
+## Wireframes
+Les wireframes du site vitrine ont été réalisés sur Figma (mobile-first).  
+Ils sont disponibles dans `docs/wireframes/`.
