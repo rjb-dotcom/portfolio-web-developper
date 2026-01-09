@@ -1,0 +1,24 @@
+name: Deploy Livrable 1 to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'livrable-01-site-vitrine/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Récupère le code du repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Déploie le livrable 1 sur la branche gh-pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./livrable-01-site-vitrine
