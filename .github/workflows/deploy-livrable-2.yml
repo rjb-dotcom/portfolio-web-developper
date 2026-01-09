@@ -1,0 +1,24 @@
+name: Deploy Livrable 1 to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'livrable-02-app-js/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GH_PAT}}
+          publish_dir: ./livrable-02-app-js
+          publish_branch: livrable-02-prod
+          force_orphan: true
