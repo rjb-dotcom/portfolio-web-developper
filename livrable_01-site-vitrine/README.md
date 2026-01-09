@@ -1,17 +1,24 @@
-# Livrable 1 – Site vitrine professionnel
+# Livrable 1 – Site vitrine HTML / CSS
 
-## Contexte
-Création d’un site vitrine pour une PME fictive.
+## 🎯 Objectif
+Créer un site vitrine responsive pour une PME fictive en HTML et CSS.
 
-## Objectifs
-- Présenter l’entreprise
-- Mettre en valeur les services
-- Permettre la prise de contact
-
-## Technologies
+## 🛠️ Technologies utilisées
 - HTML5
-- CSS3
+- CSS3 (mobile-first)
+- Git / GitHub
+- Figma (wireframes)
 
-## Wireframes
-Les wireframes du site vitrine ont été réalisés sur Figma (mobile-first).  
-Ils sont disponibles dans `docs/wireframes/`.
+## 📱 Responsive
+Le site est conçu en mobile-first et s’adapte aux écrans desktop.
+
+## ♿ Accessibilité
+- Structure sémantique HTML
+- Labels associés aux champs de formulaire
+- Navigation clavier possible
+
+## 📐 Wireframes
+Les wireframes ont été réalisés avec Figma (voir dossier /docs).
+
+## 📦 Statut
+Projet pédagogique – Formation Développeur Web & Web Mobile
